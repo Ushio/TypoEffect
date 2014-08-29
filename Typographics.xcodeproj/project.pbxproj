@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AC82A319B05AA400EE7A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82A219B05AA400EE7A7D /* Foundation.framework */; };
+		07AC82A519B05AA400EE7A7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82A419B05AA400EE7A7D /* CoreGraphics.framework */; };
+		07AC82A719B05AA400EE7A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82A619B05AA400EE7A7D /* UIKit.framework */; };
+		07AC82AD19B05AA400EE7A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07AC82AB19B05AA400EE7A7D /* InfoPlist.strings */; };
+		07AC82AF19B05AA400EE7A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC82AE19B05AA400EE7A7D /* main.m */; };
+		07AC82B319B05AA400EE7A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC82B219B05AA400EE7A7D /* AppDelegate.m */; };
+		07AC82B619B05AA400EE7A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AC82B419B05AA400EE7A7D /* Main.storyboard */; };
+		07AC82B919B05AA400EE7A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC82B819B05AA400EE7A7D /* ViewController.m */; };
+		07AC82BB19B05AA400EE7A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AC82BA19B05AA400EE7A7D /* Images.xcassets */; };
+		07AC82C219B05AA500EE7A7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82C119B05AA500EE7A7D /* XCTest.framework */; };
+		07AC82C319B05AA500EE7A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82A219B05AA400EE7A7D /* Foundation.framework */; };
+		07AC82C419B05AA500EE7A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82A619B05AA400EE7A7D /* UIKit.framework */; };
+		07AC82CC19B05AA500EE7A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07AC82CA19B05AA500EE7A7D /* InfoPlist.strings */; };
+		07AC82CE19B05AA500EE7A7D /* TypographicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC82CD19B05AA500EE7A7D /* TypographicsTests.m */; };
+		07AC82D919B05AC200EE7A7D /* TypoView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 07AC82D819B05AC200EE7A7D /* TypoView.mm */; };
+		07AC82DB19B05B7100EE7A7D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC82DA19B05B7100EE7A7D /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07AC82C519B05AA500EE7A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07AC829719B05AA400EE7A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07AC829E19B05AA400EE7A7D;
+			remoteInfo = Typographics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07AC829F19B05AA400EE7A7D /* Typographics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typographics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AC82A219B05AA400EE7A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07AC82A419B05AA400EE7A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07AC82A619B05AA400EE7A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07AC82AA19B05AA400EE7A7D /* Typographics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Typographics-Info.plist"; sourceTree = "<group>"; };
+		07AC82AC19B05AA400EE7A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07AC82AE19B05AA400EE7A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07AC82B019B05AA400EE7A7D /* Typographics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Typographics-Prefix.pch"; sourceTree = "<group>"; };
+		07AC82B119B05AA400EE7A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07AC82B219B05AA400EE7A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07AC82B519B05AA400EE7A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07AC82B719B05AA400EE7A7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07AC82B819B05AA400EE7A7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07AC82BA19B05AA400EE7A7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07AC82C019B05AA500EE7A7D /* TypographicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TypographicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AC82C119B05AA500EE7A7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07AC82C919B05AA500EE7A7D /* TypographicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TypographicsTests-Info.plist"; sourceTree = "<group>"; };
+		07AC82CB19B05AA500EE7A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07AC82CD19B05AA500EE7A7D /* TypographicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypographicsTests.m; sourceTree = "<group>"; };
+		07AC82D719B05AC200EE7A7D /* TypoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypoView.h; sourceTree = "<group>"; };
+		07AC82D819B05AC200EE7A7D /* TypoView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TypoView.mm; sourceTree = "<group>"; };
+		07AC82DA19B05B7100EE7A7D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AC829C19B05AA400EE7A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82DB19B05B7100EE7A7D /* CoreText.framework in Frameworks */,
+				07AC82A519B05AA400EE7A7D /* CoreGraphics.framework in Frameworks */,
+				07AC82A719B05AA400EE7A7D /* UIKit.framework in Frameworks */,
+				07AC82A319B05AA400EE7A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC82BD19B05AA500EE7A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82C219B05AA500EE7A7D /* XCTest.framework in Frameworks */,
+				07AC82C419B05AA500EE7A7D /* UIKit.framework in Frameworks */,
+				07AC82C319B05AA500EE7A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AC829619B05AA400EE7A7D = {
+			isa = PBXGroup;
+			children = (
+				07AC82A819B05AA400EE7A7D /* Typographics */,
+				07AC82C719B05AA500EE7A7D /* TypographicsTests */,
+				07AC82A119B05AA400EE7A7D /* Frameworks */,
+				07AC82A019B05AA400EE7A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07AC82A019B05AA400EE7A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AC829F19B05AA400EE7A7D /* Typographics.app */,
+				07AC82C019B05AA500EE7A7D /* TypographicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07AC82A119B05AA400EE7A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07AC82DA19B05B7100EE7A7D /* CoreText.framework */,
+				07AC82A219B05AA400EE7A7D /* Foundation.framework */,
+				07AC82A419B05AA400EE7A7D /* CoreGraphics.framework */,
+				07AC82A619B05AA400EE7A7D /* UIKit.framework */,
+				07AC82C119B05AA500EE7A7D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07AC82A819B05AA400EE7A7D /* Typographics */ = {
+			isa = PBXGroup;
+			children = (
+				07AC82B119B05AA400EE7A7D /* AppDelegate.h */,
+				07AC82B219B05AA400EE7A7D /* AppDelegate.m */,
+				07AC82B419B05AA400EE7A7D /* Main.storyboard */,
+				07AC82B719B05AA400EE7A7D /* ViewController.h */,
+				07AC82B819B05AA400EE7A7D /* ViewController.m */,
+				07AC82D719B05AC200EE7A7D /* TypoView.h */,
+				07AC82D819B05AC200EE7A7D /* TypoView.mm */,
+				07AC82BA19B05AA400EE7A7D /* Images.xcassets */,
+				07AC82A919B05AA400EE7A7D /* Supporting Files */,
+			);
+			path = Typographics;
+			sourceTree = "<group>";
+		};
+		07AC82A919B05AA400EE7A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AC82AA19B05AA400EE7A7D /* Typographics-Info.plist */,
+				07AC82AB19B05AA400EE7A7D /* InfoPlist.strings */,
+				07AC82AE19B05AA400EE7A7D /* main.m */,
+				07AC82B019B05AA400EE7A7D /* Typographics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07AC82C719B05AA500EE7A7D /* TypographicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				07AC82CD19B05AA500EE7A7D /* TypographicsTests.m */,
+				07AC82C819B05AA500EE7A7D /* Supporting Files */,
+			);
+			path = TypographicsTests;
+			sourceTree = "<group>";
+		};
+		07AC82C819B05AA500EE7A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AC82C919B05AA500EE7A7D /* TypographicsTests-Info.plist */,
+				07AC82CA19B05AA500EE7A7D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07AC829E19B05AA400EE7A7D /* Typographics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AC82D119B05AA500EE7A7D /* Build configuration list for PBXNativeTarget "Typographics" */;
+			buildPhases = (
+				07AC829B19B05AA400EE7A7D /* Sources */,
+				07AC829C19B05AA400EE7A7D /* Frameworks */,
+				07AC829D19B05AA400EE7A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Typographics;
+			productName = Typographics;
+			productReference = 07AC829F19B05AA400EE7A7D /* Typographics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07AC82BF19B05AA500EE7A7D /* TypographicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AC82D419B05AA500EE7A7D /* Build configuration list for PBXNativeTarget "TypographicsTests" */;
+			buildPhases = (
+				07AC82BC19B05AA500EE7A7D /* Sources */,
+				07AC82BD19B05AA500EE7A7D /* Frameworks */,
+				07AC82BE19B05AA500EE7A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AC82C619B05AA500EE7A7D /* PBXTargetDependency */,
+			);
+			name = TypographicsTests;
+			productName = TypographicsTests;
+			productReference = 07AC82C019B05AA500EE7A7D /* TypographicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07AC829719B05AA400EE7A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wow;
+				TargetAttributes = {
+					07AC829E19B05AA400EE7A7D = {
+						DevelopmentTeam = 5WSGYB84AM;
+					};
+					07AC82BF19B05AA500EE7A7D = {
+						TestTargetID = 07AC829E19B05AA400EE7A7D;
+					};
+				};
+			};
+			buildConfigurationList = 07AC829A19B05AA400EE7A7D /* Build configuration list for PBXProject "Typographics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07AC829619B05AA400EE7A7D;
+			productRefGroup = 07AC82A019B05AA400EE7A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AC829E19B05AA400EE7A7D /* Typographics */,
+				07AC82BF19B05AA500EE7A7D /* TypographicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07AC829D19B05AA400EE7A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82BB19B05AA400EE7A7D /* Images.xcassets in Resources */,
+				07AC82AD19B05AA400EE7A7D /* InfoPlist.strings in Resources */,
+				07AC82B619B05AA400EE7A7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC82BE19B05AA500EE7A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82CC19B05AA500EE7A7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AC829B19B05AA400EE7A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82D919B05AC200EE7A7D /* TypoView.mm in Sources */,
+				07AC82B919B05AA400EE7A7D /* ViewController.m in Sources */,
+				07AC82B319B05AA400EE7A7D /* AppDelegate.m in Sources */,
+				07AC82AF19B05AA400EE7A7D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC82BC19B05AA500EE7A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC82CE19B05AA500EE7A7D /* TypographicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AC82C619B05AA500EE7A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07AC829E19B05AA400EE7A7D /* Typographics */;
+			targetProxy = 07AC82C519B05AA500EE7A7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07AC82AB19B05AA400EE7A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC82AC19B05AA400EE7A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07AC82B419B05AA400EE7A7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC82B519B05AA400EE7A7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07AC82CA19B05AA500EE7A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC82CB19B05AA500EE7A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07AC82CF19B05AA500EE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07AC82D019B05AA500EE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AC82D219B05AA500EE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typographics/Typographics-Prefix.pch";
+				INFOPLIST_FILE = "Typographics/Typographics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d2e2d00c-27f4-43f8-b0a1-ade25d89e451";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07AC82D319B05AA500EE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typographics/Typographics-Prefix.pch";
+				INFOPLIST_FILE = "Typographics/Typographics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d2e2d00c-27f4-43f8-b0a1-ade25d89e451";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07AC82D519B05AA500EE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Typographics.app/Typographics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typographics/Typographics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TypographicsTests/TypographicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07AC82D619B05AA500EE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Typographics.app/Typographics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typographics/Typographics-Prefix.pch";
+				INFOPLIST_FILE = "TypographicsTests/TypographicsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AC829A19B05AA400EE7A7D /* Build configuration list for PBXProject "Typographics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC82CF19B05AA500EE7A7D /* Debug */,
+				07AC82D019B05AA500EE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AC82D119B05AA500EE7A7D /* Build configuration list for PBXNativeTarget "Typographics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC82D219B05AA500EE7A7D /* Debug */,
+				07AC82D319B05AA500EE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AC82D419B05AA500EE7A7D /* Build configuration list for PBXNativeTarget "TypographicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC82D519B05AA500EE7A7D /* Debug */,
+				07AC82D619B05AA500EE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07AC829719B05AA400EE7A7D /* Project object */;
+}
